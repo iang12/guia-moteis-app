@@ -32,12 +32,12 @@ A tela implementada exibe uma lista de motéis, com informações como nome, pre
 
 1. Clone este repositório para a sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/guia-moteis.git
+   git clone https://github.com/iang12/guia-moteis-app
    ```
 
 2. Acesse o diretório do projeto:
    ```bash
-   cd guia-moteis
+   cd guia-moteis-app
    ```
 
 3. Instale as dependências:
@@ -52,20 +52,25 @@ A tela implementada exibe uma lista de motéis, com informações como nome, pre
 
 5. Para rodar os testes unitários:
    ```bash
-   flutter test
+   flutter test --coverage
    ```
+   Ou no Vs code clique na opção run tests with coverage.  Necessário o [Lcov](https://github.com/linux-test-project/lcov) instalado no pc.
+   Veja a imagem abaixo:
+
+<img src="run_tests.png" height="200em"/>
+
 ## Cobertura de Testes
 
-Abaixo está a cobertura de testes gerada para a aplicação com 97.6%:
+Abaixo está a cobertura de testes gerada para a aplicação com **97.6%**:
 
-![Cobertura de Testes](coverage.png){width=60%}
+![Cobertura de Testes](coverage.png)
 
 
 ## Critérios de Avaliação
 
 - **Código limpo e organizado**: A estrutura do código foi organizada de forma modular para facilitar a manutenção e a escalabilidade.
 - **Uso correto do Flutter e boas práticas**: A aplicação segue as boas práticas recomendadas para o desenvolvimento com Flutter.
-- **Gerenciamento de estado eficiente**: A aplicação utiliza [nome da solução utilizada] para garantir um gerenciamento de estado adequado.
-- **Testes unitários**: Todos os principais componentes da aplicação são cobertos por testes unitários.
+- **Gerenciamento de estado eficiente**: A aplicação utiliza o Bloc para garantir um gerenciamento de estado adequado.
+- **Testes unitários**: Todos os principais componentes da aplicação são cobertos por testes unitários e Widgets.
 - **Boa experiência do usuário**: A interface foi desenvolvida para proporcionar uma experiência agradável ao usuário.
 
