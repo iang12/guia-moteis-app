@@ -23,10 +23,10 @@ A tela implementada exibe uma lista de motéis, com informações como nome, pre
 
 ## Screenshots do aplicativo rodando
 
-
-<img src="screenshot_app2.png" height="600em"/>
-
-<img src="screenshot_app.png" height="600em"/>
+<div style="display: flex;">
+  <img src="screenshot_app2.png" width="500em" style="margin-right: 10px;"/>
+  <img src="screenshot_app.png" width="500em"/>
+</div>
 
 ## Como Rodar o Projeto
 
